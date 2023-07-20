@@ -44,11 +44,11 @@ cd ~/hyprland/Scripts
 >```
 
 Please reboot after the install script completes and takes you to sddm login screen (or black screen) for the first time.   
-For more details, please refer [installation.md](https://github.com/prasanthrangan/hyprdots/blob/main/installation.md)
+For more details, please refer [installation.md](https://github.com/SudoPengu/Hyprland/blob/main/installation.md)
 
 
 ### Theming
-To add your own custom theme, please refer [theming.md](https://github.com/prasanthrangan/hyprdots/blob/main/theming.md)
+To add your own custom theme, please refer [theming.md](https://github.com/SudoPengu/Hyprland/blob/main/theming.md)
 - Available themes
     - [x] Catppuccin-Mocha
     - [x] Catppuccin-Latte
@@ -61,33 +61,33 @@ To add your own custom theme, please refer [theming.md](https://github.com/prasa
 
 | Catppuccin-Mocha |
 | :-: |
-| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_mocha_1.png) |
-| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_mocha_2.png) |
+| ![](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/theme_mocha_1.png) |
+| ![](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/theme_mocha_2.png) |
 
 | Catppuccin-Latte |
 | :-: |
-| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_latte_1.png) |
-| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_latte_2.png) |
+| ![](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/theme_latte_1.png) |
+| ![](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/theme_latte_2.png) |
 
 | Decay-Green |
 | :-: |
-| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_decay_1.png) |
-| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_decay_2.png) |
+| ![](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/theme_decay_1.png) |
+| ![](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/theme_decay_2.png) |
 
 | Rosé-Pine |
 | :-: |
-| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_rosine_1.png) |
-| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_rosine_2.png) |
+| ![](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/theme_rosine_1.png) |
+| ![](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/theme_rosine_2.png) |
 
 | Tokyo-Night |
 | :-: |
-| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_tokyo_1.png) |
-| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_tokyo_2.png) |
+| ![](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/theme_tokyo_1.png) |
+| ![](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/theme_tokyo_2.png) |
 
 | Material-Sakura |
 | :-: |
-| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_maura_1.png) |
-| ![](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/theme_maura_2.png) |
+| ![](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/theme_maura_1.png) |
+| ![](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/theme_maura_2.png) |
 
 
 <details>
@@ -224,7 +224,7 @@ pokemon-colorscripts-git | display pokemon sprites
 
 | youtube |
 | --- |
-| [![IMAGE ALT TEXT](https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/yt_playlist.png)](https://www.youtube.com/watch?v=_nyStxAI75s&list=PLt8rU_ebLsc5yEHUVsAQTqokIBMtx3RFY) |
+| [![IMAGE ALT TEXT](https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/yt_playlist.png)](https://www.youtube.com/watch?v=_nyStxAI75s&list=PLt8rU_ebLsc5yEHUVsAQTqokIBMtx3RFY) |
 
 </details>
 
