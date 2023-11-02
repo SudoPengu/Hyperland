@@ -10,23 +10,39 @@ if [ $? -ne 0 ] ; then
     exit 1
 fi
 
-install_list="${1:-install_pkg.lst}"
-
 if ! pkg_installed git
     then
     echo "installing dependency git..."
     sudo pacman -S git
 fi
 
-if ! pkg_installed yay
+chk_aurh
+
+if [ -z $aurhlpr ]
     then
-    echo "installing dependency yay..."
-    ./install_yay.sh 2>&1
+    echo -e "Select aur helper:\n1) yay\n2) paru"
+    read -p "Enter option number : " aurinp
+
+    case $aurinp in
+    1) aurhlpr="yay" ;;
+    2) aurhlpr="paru" ;;
+    *) echo -e "...Invalid option selected..."
+        exit 1 ;;
+    esac
+
+    echo "installing dependency $aurhlpr..."
+    ./install_aur.sh $aurhlpr 2>&1
 fi
 
+install_list="${1:-install_pkg.lst}"
 
 while read pkg
 do
+    if [ -z $pkg ]
+        then
+        continue
+    fi
+
     if pkg_installed ${pkg}
         then
         echo "skipping ${pkg}..."
@@ -44,18 +60,16 @@ do
     else
         echo "error: unknown package ${pkg}..."
     fi
-done < $install_list
-
+done < <( cut -d '#' -f 1 $install_list )
 
 if [ `echo $pkg_arch | wc -w` -gt 0 ]
-then
+    then
     echo "installing $pkg_arch from arch repo..."
     sudo pacman ${use_default} -S $pkg_arch
 fi
 
 if [ `echo $pkg_aur | wc -w` -gt 0 ]
-then
+    then
     echo "installing $pkg_aur from aur..."
-    yay ${use_default} -S $pkg_aur
+    $aurhlpr ${use_default} -S $pkg_aur
 fi
-

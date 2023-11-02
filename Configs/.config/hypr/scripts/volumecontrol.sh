@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+ScrDir=`dirname $(realpath $0)`
+source $ScrDir/globalcontrol.sh
+
 
 # define functions
 
@@ -15,7 +18,6 @@ cat << "EOF"
         d -- <d>ecrease volume [-5]
         m -- <m>ute [x]
 EOF
-exit 1
 }
 
 function notify_vol
@@ -24,16 +26,16 @@ function notify_vol
     angle="$(( (($vol+2)/5) * 5 ))"
     ico="${icodir}/vol-${angle}.svg"
     bar=$(seq -s "." $(($vol / 15)) | sed 's/[0-9]//g')
-    dunstify $ncolor "volctl" -a "$vol$bar" "$nsink" -i $ico -r 91190 -t 800
+    dunstify "t2" -a "$vol$bar" "$nsink" -i $ico -r 91190 -t 800
 }
 
 function notify_mute
 {
     mute=`pamixer $srce --get-mute | cat`
     if [ "$mute" == "true" ] ; then
-        dunstify $ncolor "volctl" -a "muted" "$nsink" -i ${icodir}/muted-${dvce}.svg -r 91190 -t 800
+        dunstify "t2" -a "muted" "$nsink" -i ${icodir}/muted-${dvce}.svg -r 91190 -t 800
     else
-        dunstify $ncolor "volctl" -a "unmuted" "$nsink" -i ${icodir}/unmuted-${dvce}.svg -r 91190 -t 800
+        dunstify "t2" -a "unmuted" "$nsink" -i ${icodir}/unmuted-${dvce}.svg -r 91190 -t 800
     fi
 }
 
@@ -62,7 +64,6 @@ fi
 shift $((OPTIND -1))
 step="${2:-5}"
 icodir="~/.config/dunst/icons/vol"
-ncolor="-h string:bgcolor:#343d46 -h string:fgcolor:#c0c5ce -h string:frcolor:#c0c5ce"
 
 case $1 in
     i) pamixer $srce -i ${step}
