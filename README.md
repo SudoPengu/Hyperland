@@ -14,8 +14,8 @@
 <https://user-images.githubusercontent.com/106020512/235429801-e8b8dae2-c1ad-4e23-9aa2-b1edb6cabe99.mp4>
 
 <p align="center">
-    <img align="center" width="49%" src="https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/showcase_1.png?token=GHSAT0AAAAAACJSF2637LMEOB2QRI3MO6HGZKDS6UA" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/showcase_2.png?token=GHSAT0AAAAAACJSF263PULBZVZ3ZUTKMYNKZKDS6NA" />
-    <img align="center" width="49%" src="https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/showcase_3.png?token=GHSAT0AAAAAACJSF263TPPCROV7DET4HA62ZKDS6GA" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/showcase_4.png?token=GHSAT0AAAAAACJSF2632RB2ULZXPGY6YO56ZKDS5HQ" />
+    <img align="center" width="49%" src="https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/showcase_1.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/showcase_2.png" />
+    <img align="center" width="49%" src="https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/showcase_3.png" /> <img align="center" width="49%" src="https://raw.githubusercontent.com/SudoPengu/Hyprland/main/Source/assets/showcase_4.png" />
 </p>
 
 https://github.com/SudoPengu/Hyprland/assets/106020512/c995699a-299c-4a8e-99d4-71aa3d68eb93
